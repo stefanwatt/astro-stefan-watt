@@ -6,13 +6,6 @@
   import AboutMe from "$lib/components/aboutMe.svelte";
 </script>
 
-<svelte:head>
-  <link rel="preconnect" href="https://scripts.sirv.com" crossorigin>
-<link rel="preconnect" href="https://comentic.sirv.com" crossorigin>
-<link rel="dns-prefetch" href="https://scripts.sirv.com">
-<link rel="dns-prefetch" href="https://comentic.sirv.com">
-  <script src="https://scripts.sirv.com/sirv.nospin.js"></script>
-</svelte:head>
 <main class="dark">
   <div class="h-screen dark:bg-neutral text-primary">
     <div class="md:flex">
