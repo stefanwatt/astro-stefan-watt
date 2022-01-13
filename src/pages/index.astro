@@ -1,0 +1,22 @@
+---
+// Component imports and setup JavaScript go here!
+
+import App from "$lib/components/App.svelte"
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Welcome to Astro</title>
+		<link rel="stylesheet" type="text/css" href={Astro.resolve('../app.css')} />
+		<style>
+			/* scoped CSS styles go here: */
+			/* h1 { ... } */
+		</style>
+	</head>
+
+	<body>
+		<App/>
+	</body>
+</html>

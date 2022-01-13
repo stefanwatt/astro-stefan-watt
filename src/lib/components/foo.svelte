@@ -1,0 +1,2 @@
+
+svelte inside astro
